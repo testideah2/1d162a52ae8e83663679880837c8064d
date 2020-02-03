@@ -3,14 +3,14 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android" 
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
-        id          = "ru.app"
+        id          = "ua.crimea.tm.test"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
-    <name>ТЕСТ. МАКЛЕР</name>
+    <name>ТЕСТ. МАКЛЕР•ТМ тест</name>
 
     <description>
-        Маклер сейчас и везде
+        МАКЛЕР•ТМ тест
     </description>
 
     <author>Tadapp</author>
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#F5FF00" />
+    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
@@ -47,10 +47,10 @@
         <icon src="res/android/icon/6b6ccd763bd6498fcfac141c682303cd.png" density="xxhdpi" />
         <icon src="res/android/icon/10b9f6e495ead08382cfd99e4e40cb30.png" density="xxxhdpi" />
 
-        <splash src="res/android/screen/3d712d0be61ba641e25fbdaafafd054b.png" density="port-hdpi"/>
-        <splash src="res/android/screen/b1f3f4fde12fcd7c06b639ef6729954d.png" density="port-ldpi"/>
-        <splash src="res/android/screen/c1665e3a3de9dc3114d0080a70c1f438.png" density="port-mdpi"/>
-        <splash src="res/android/screen/7f375acbc8e2f67731ec9295338355bb.png" density="port-xhdpi"/>
+        <splash src="res/android/screen/7cf58c3e680b35a8b01bde3f4d1ef7e0.png" density="port-hdpi"/>
+        <splash src="res/android/screen/f4eabce77886b494977ea1d4c5df760a.png" density="port-ldpi"/>
+        <splash src="res/android/screen/2e3510b27bb5dcc42558d7bd0a46be51.png" density="port-mdpi"/>
+        <splash src="res/android/screen/b9db6ec8a11176cb4e74a575c7232cc2.png" density="port-xhdpi"/>
     </platform>
 
     <platform name="ios">
@@ -69,12 +69,12 @@
         <icon src="res/ios/icon/598c316db2dd26372a748055ca4c2f34.png" width="87" height="87" />
         <icon src="res/ios/icon/1464ca75965dd155107669f812f39e35.png" width="167" height="167" />
 
-        <splash src="res/ios/screen/ef13c0219fdd2ea753d4dd84856d492e.png" />
-        <splash src="res/ios/screen/a338842368a9ffa20dee4e7fb4c13a83.png" />
-        <splash src="res/ios/screen/122538eb9b7864ce8e0051f7d9cf35ce.png" />
-        <splash src="res/ios/screen/34ab93ddc8888fe62e82d90e9ceef9b9.png" />
-        <splash src="res/ios/screen/08c905aac041fbd1a17ef3a4d4d320d4.png" />
-        <splash src="res/ios/screen/b51f392805a597f53fbd87423a2c0502.png" />
+        <splash src="res/ios/screen/cc316f2320b59278c8fe8100a5e2a6ec.png" />
+        <splash src="res/ios/screen/202f2df2a183e72dd87f1fb33164569f.png" />
+        <splash src="res/ios/screen/574fd79ecde34ee987ede5139c00b3ab.png" />
+        <splash src="res/ios/screen/acd572f8b99158fbbadf10d500d56524.png" />
+        <splash src="res/ios/screen/1993c4fbd90bf2f7e7d686a6683ef7e8.png" />
+        <splash src="res/ios/screen/b30268a8c0e3ce31a7eb6c590813f5c9.png" />
     </platform>
 
     <platform name="winphone">
@@ -86,8 +86,8 @@
         <icon src="res/windows/icon/99654814ccc46c15a907c1a1ca86f88d.png" target="Square150x150Logo" />
         <icon src="res/windows/icon/3abd46616276c065db7d68ee21c05df5.png" target="Square310x310Logo" />
 
-        <splash src="res/windows/screen/f228da9be54cf0e1f1a4594623e1914e.png" target="SplashScreen"/>
-        <splash src="res/windows/screen/dfc8b3f92806a18864beac044ed869ff.png" target="SplashScreenPhone"/>
+        <splash src="res/windows/screen/377895ca07e8f49956dcb5240a6b8d44.png" target="SplashScreen"/>
+        <splash src="res/windows/screen/6c589b92075e101512648ba12f28144c.png" target="SplashScreenPhone"/>
     </platform>
 
     <access origin='*'/>
